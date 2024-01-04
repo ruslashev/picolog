@@ -4,6 +4,7 @@ mod timestamp;
 
 use log::{Level, LevelFilter, Log, Metadata, Record};
 
+/// The main logging struct
 pub struct PicoLogger {
     level: LevelFilter,
     colors: bool,

@@ -5,8 +5,8 @@ picolog – a tiny, no-extra-dependency, feature-lacking logging implementation 
 
 Rationale
 
-This crate is like simple-logger² except it doesn't panic on startup because of a rare time³ issue.
+This crate is like simple_logger² except it doesn't panic on startup because of a rare time³ issue.
 
-¹ https://crates.io/crates/log
-² https://crates.io/crates/simple_logger
+¹ https://crates.io/crates/log  
+² https://crates.io/crates/simple_logger  
 ³ https://crates.io/crates/time
