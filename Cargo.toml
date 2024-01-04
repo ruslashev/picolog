@@ -1,0 +1,19 @@
+[package]
+name = "picolog"
+version = "1.0.0"
+edition = "2021"
+license = "Zlib"
+authors = ["Ruslan Akbashev <ruslashev@gmail.com>"]
+description = "Tiny logging implementation for the log crate"
+repository = "https://github.com/ruslashev/picolog"
+
+[lib]
+path = "lib.rs"
+
+[dependencies.log]
+version = "0.4.20"
+default-features = false
+features = ["std"]
+
+[dev-dependencies]
+time = { version = "0.3", features = ["macros"] }

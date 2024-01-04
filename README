@@ -1,0 +1,12 @@
+picolog – a tiny, no-extra-dependency, feature-lacking logging implementation for the log¹ crate.
+
+    2024-01-04 03:16:02 DEBUG [module] message
+    2024-01-04 03:16:02 ERROR [module] message
+
+Rationale
+
+This crate is like simple-logger² except it doesn't panic on startup because of a rare time³ issue.
+
+¹ https://crates.io/crates/log
+² https://crates.io/crates/simple_logger
+³ https://crates.io/crates/time
